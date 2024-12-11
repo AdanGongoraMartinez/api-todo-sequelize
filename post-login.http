@@ -1,11 +1,11 @@
 curl -X POST http://localhost:3000/auth/login
 -H "Content-Type: application/json" 
 -d '{
-  "email":"node@example.com",
-  "password":"node"
+  "email":"post@example.com",
+  "password":"post"
 }'
 
-curl -X POST http://localhost:3000/auth/login -H "Content-Type: application/json" -d '{ "email":"node@example.com", "password":"node" }'
+curl -X POST http://localhost:3000/auth/login -H "Content-Type: application/json" -d '{ "email":"post@example.com", "password":"post" }'
 
 curl -X POST http://localhost:3000/auth/register
 -H "Content-Type: application/json" 
