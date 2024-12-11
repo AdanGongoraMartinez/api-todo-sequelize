@@ -1,0 +1,8 @@
+curl -X POST http://localhost:3000/tasks/create
+-H "Content-Type: application/json" 
+-d '{
+  "user_id":"1",
+  "title":"Crear base en render"
+}'
+
+curl -X POST http://localhost:3000/tasks/create -H "Content-Type: application/json" -d '{ "user_id":"1", "title":"Crear base en render" }'
